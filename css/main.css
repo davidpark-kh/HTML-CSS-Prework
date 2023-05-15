@@ -1,0 +1,146 @@
+body, html{
+    height: 100%;
+    margin: 10px;
+    font-family: 'Helvetica';
+}
+
+body{
+    background-color: cadetblue
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: lightsteelblue;
+    list-style-type: none;
+    width: 100%;
+    padding: 15px;
+}
+
+nav{
+    display: block;
+    color: whitesmoke;
+}
+nav a{
+    color: #555555;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.header-image{
+    background-image: linear-gradient(rgba(0,0,0,.0), rgba(0,0,0,.8)), url("../images/Copenhagen.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position:relative;
+}
+
+.header-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main{
+    width: 75%;
+    float:left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100%;
+    border-radius: 3%;
+    margin: auto;
+    border-color: white;
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: rgb(220, 255, 255);
+    text-align: center;
+    color: #555555;
+}
+
+.main-articles{
+    background-color: lightslategray;
+    color: #2f2f2f
+    
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+}
+
+main{
+    overflow:auto;
+}

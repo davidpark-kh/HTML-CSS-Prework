@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's HTML/CSS Prework Exercise</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li style="color: darkslategray;"><strong>David's HTML/CSS Prework</strong></li>
+            <li><a href="about.html">Who I am</a></li>
+            <li><a href="projects.html">What I do</a></li>
+            <li><a href="#">Resources</a></li>
+        </ul>
+    </nav>
+    <div class="header-image">
+        <div class="header-text">
+            <h1 style="font-size:50px;">David Park</h1>
+            <p>Wanna-be Programmer</p>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>Blog Post 1</h1>
+                <strong><small>Deep and thoughtful post written in Latin to look smart.</small></strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa doloremque laboriosam reiciendis, nulla
+                    nobis corrupti, deleniti reprehenderit architecto quia quisquam ut porro provident eveniet beatae
+                    illum, corporis aliquam nihil officiis!
+                    Repellendus similique voluptatem necessitatibus consectetur ut vitae atque asperiores corporis eaque
+                    nam nobis, aperiam quod sit iure omnis temporibus perspiciatis, id quo totam impedit. Quibusdam ea
+                    necessitatibus incidunt! Quam, odio!
+                    Placeat, fugit! Numquam provident, molestias quasi perspiciatis fugiat corrupti culpa odit? Ab sequi
+                    beatae harum inventore possimus laudantium doloremque voluptas ad voluptatum dolor! Repellat
+                    reiciendis magni consectetur exercitationem assumenda cum?
+                    Impedit molestias est, voluptatum exercitationem sit, eum eius autem neque, sint dignissimos
+                    provident dolore tenetur illo corrupti rem nisi. Natus quibusdam adipisci nostrum reiciendis odio?
+                    Quia accusamus accusantium vel explicabo!
+                    </p>
+            </article>
+            <article class="main-articles">
+                <h1>Trip to Europe</h1>
+                <strong><small>A short blog post about our trip throughout northern Europe after we moved to Scotland in 2017.</small></strong>
+                <figure>
+                    <img src="images/Nyhavn.jpg" alt="Evening time in Nyhavn, Copenhagen, DE" style="width: 500px;">
+                    <figcaption><small>Nyhaven, Copenhagen, DE. photo credit: the Wife.</small></figcaption>
+                </figure>
+                <p>The first city with which we kicked off our Europe trip was Copenhagen in Denmark. Aesthetically, Copenhagen and Amsterdam were probably my two favorite cities. Vibe-wise, I probably liked Paris the most. People would start eating dinner around 9pm and take their time with their meals, often sitting at the restaurant and drinking wine and smoking cigarettes until midnight. Completely my type of life.</p>
+            </article>
+            <article class="main-articles">
+                <h1>First post?</h1>
+                <strong><small>This is the beginning draft of my website, which I plan to use to maintain a list of projects I'm working on as. I also plan to use this as a base to experiment and practice my HTML and CSS lessons in.</small></strong>
+                <p>Dylan and Sean duo are an excellent pedagogical team, yet the nature of the bootcamp's goal means I probably would need to further go in depth once the cohort is over, and continue to practice on my own.</p>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/me.jpg" alt="Professional Pic">
+                <div id="profile-details">
+                    <h2>Dave Park</h2>
+                    <ul>
+                        <li>123 Fake St</li>
+                        <li>Philly, PA 19128</li>
+                        <li>(000) 111-2345</li>
+                        <li><a href="mailto:davidpark.kh@gmail.com">davidpark.kh@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please contact me with questions.</small></strong>
+                <br>
+                <form action="mailto:davidpark.kh@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="message" placeholder="Your message" rows="5"></textarea>
+                </form>
+            </article>
+        </div>
+    </main>
+<footer>
+    <hr>
+    <div>
+        &copy; David Park 2023
+    </div>
+</footer>
+</body>
+</html>
